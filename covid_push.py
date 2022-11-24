@@ -1,7 +1,7 @@
 from git import Repo
 import os
-os.chdir('/home/sergeeva/Mytest/Mytest')
-PATH_OF_GIT_REPO = r'/home/sergeeva/Mytest/Mytest/.git'
+os.chdir('/home/sergeeva/SergeevaAI.github.io')
+PATH_OF_GIT_REPO = r'/home/sergeeva/SergeevaAI.github.io/.git'
 COMMIT_MESSAGE = 'daily update'
 
 def git_push():
